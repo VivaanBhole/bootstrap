@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panera</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-static-top">
+   <div class="container">
+      <a href = "index.html"><img src="images/word-logo.jpg" id="nav-brand"></a>
+      <button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse navHeaderCollapse">
+         <ul class="nav navbar-nav navbar-right">
+            <li class = "active"><a href = "index.html">Home</a></li>
+            <li><a href = "menu.html">Menus</a></li>
+            <li><a href = "reviews.html">Reviews</a></li>
+            <li class = "dropdown">
+               <a href="" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class = "caret"></b></a>
+               <ul class="dropdown-menu">
+                  <li><a href = "https://twitter.com/panerabread?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+                  <li><a href = "https://www.instagram.com/panerabread/?hl=en">Instagram</a></li>
+                  <li><a href = "https://www.facebook.com/panerabread/">Facebook</a></li>
+               </ul>
+            </li>
+            <li><a href = "#contact" data-toggle="modal">Contact Us</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
+<div class="container">
+   <div class="jumbotron">
+      <center><h1>Panera Bread</h1>
+      <p>This is the site where you can get to know about Panera Bread</p>
+      <a href="https://www.google.com/maps/search/panera+near+me" class="btn btn-success">find a Panera near me</a></center>
+   </div>
+</div>
+
+<div class = "container">
+   <div class="row">
+      <div class="col-md-1">
+         <h1>Hi</h1>
+      <p>This website has Reviews, Menus, and ways to interact with Panera locally and through social media.</p>
+      </div>
+   </div>
+</div>
+<div class="modal fade" id = "contact" role="dialog">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <form class="form-horizontal">
+            <div class="modal-header">
+               <p>Contact me</p>
+            </div>
+            <div class="modal-body">
+               <div class="form-group">
+                  <label for="contact-name" class="col-lg-2 control-label">Name: </label>
+                  <div class="col-lg-10">
+                     <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                  </div>
+                  <label for="contact-email" class="col-lg-2 control-label">Email: </label>
+                  <div class="col-lg-10">
+                     <input type="email" class="form-control" id="contact-email" placeholder="you@eg.com">
+                  </div>
+                  <label for="contact-msg" class="col-lg-2 control-label">Message: </label>
+                  <div class="col-lg-10">
+                     <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <a class="btn btn-default" data-dismiss="modal">Close</a>
+               <button class="btn btn-primary" type="submit">Send</button>
+
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+   <div class="container">
+      <p class="navbar-text pull-left">Site built by Vivaan Bhole</p>
+      <a href = "https://www.panerabread.com/en-us/home.html" class="navbar-btn btn-info btn pull-right">Official Website</a>
+   </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+      margin-bottom: 80px;
+      background-color: black;
+      color:#888a7b;
+}
+.page-header{
+      margin-top: 0;
+}
+.panel-body{
+      padding-top: 0;
+}
+.featuredImg{
+      margin-bottom: 20px;
+}
+#nav-brand{
+      width: 200px;
+      float: left;
+      margin: 20px;
+      margin-left: 0;
+}
+.jumbotron{
+      background-color: #222222;
+      color: #657000;
+}
+li .dropdown-menu{
+      background-color:#202020;
+}
+li .dropdown-menu a{
+      color:gray;
+}
+li .dropdown-menu a:hover{
+      background-color:#202020;
+      color:white;
+}
+.modal-content{
+      background-color: #222222;
+}
+.form-group{
+      background-color: #222222;
+}
+.list-group-item{
+      background-color: #222222;
+      border-color: black;
+}
+#active{
+      background-color: #657000;
+}
+.row{
+      margin-bottom: 20px;
+}
