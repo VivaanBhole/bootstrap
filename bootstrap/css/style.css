@@ -48,3 +48,6 @@ li .dropdown-menu a:hover{
 .row{
       margin-bottom: 20px;
 }
+.jumbotron{
+      background-image: url(images/panera-bread-logo.png);
+}
